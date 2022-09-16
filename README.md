@@ -6,7 +6,16 @@ The system allows one to easily access the relevant information and make necessa
 Users can decide about places they want to visit and make bookings online for travel and accommodation.
 
 #How to clone our Project 
-'''
+```
 git clone https://github.com/Mystic-Brain/NovaTurientTraveller.git
-'''
+```
+
+#How to run web application
+
+
+cd webapp
+
+npm install
+
+npm run start
 
