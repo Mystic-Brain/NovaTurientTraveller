@@ -5,4 +5,8 @@ The proposed system is a website and maintains a centralized repository of all  
 The system allows one to easily access the relevant information and make necessary travel arrangements. 
 Users can decide about places they want to visit and make bookings online for travel and accommodation.
 
+#How to clone our Project 
+'''
+git clone https://github.com/Mystic-Brain/NovaTurientTraveller.git
+'''
 
