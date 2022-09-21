@@ -33,7 +33,7 @@ const footer = () => {
           </a>
           <a href="#">
             {" "}
-            <i className="fas fa-envelope" /> sawalesanket@gmail.com{" "}
+            <i className="fas fa-envelope" /> novaturientteam@gmail.com{" "}
           </a>
           <a href="#">
             {" "}
