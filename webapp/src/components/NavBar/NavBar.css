@@ -1,0 +1,43 @@
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.navbar ul li:hover > .menu-dropdown {
+  display: block;
+}
+
+.navbar ul .menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px;
+  background-color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: #10221b;
+  cursor: pointer;
+  display: block;
+}
+
+.navbar a:hover {
+  color: #219150;
+}
+
+.navbar #nav-close {
+  font-size: 16px;
+  cursor: pointer;
+  color: #10221b;
+  display: none;
+}
