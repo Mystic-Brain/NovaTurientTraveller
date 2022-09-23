@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div>
         <NavBar />
-        {/* <h1>Contact page</h1>
+        <h1>Contact page</h1>
         <div>
             <div>
                 <input name="firstname" type="text" placeholder='Firstname' />
@@ -22,7 +22,7 @@ function Contact() {
             <div>
                 <input name="address" type="text" placeholder='Address' />
             </div>
-        </div> */}
+        </div>
         
         <Footer />
     </div>
