@@ -1,9 +1,13 @@
 import React from "react";
+import { signInWithGoogle } from "../firebase/firebase";
 import "./Footer.css"
 
 function Footer() {
   return (
-    <section className="footer">
+
+    <footer className="footer">
+
+      
       <div className="box-container">
         <div className="box">
           <h3>quick links</h3>
@@ -16,7 +20,7 @@ function Footer() {
         </div>
         <div className="box">
           <h3>extra links</h3>
-          <a href="#">my account</a>
+          <a href="#" onClick={signInWithGoogle}>my account</a>
           <a href="#">my order</a>
           <a href="#">my wishlist</a>
           <a href="#">ask questions</a>
@@ -69,7 +73,9 @@ function Footer() {
       <div className="credit">
         created by <span>Novaturient Team</span> | CDAC Jindabad!
       </div>
-    </section>
+      
+    </footer>
+
   );
 }
 

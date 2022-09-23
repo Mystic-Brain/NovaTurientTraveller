@@ -21,35 +21,48 @@ const data = [
       "Harishchandra, A famous ancient fort in the district of Ahmednagar is a perfect place for you to visit for a weekend getaway",
     cost: "2000",
     duration: "Approx 1 night trip",
+    distance: "1000"
   },
   {
     image: Destination2,
-    title: "Thailand",
-    subTitle: "Thailand is a Southeast Asia country. It's known for",
-    cost: "54,200",
+    title: "Lohgad",
+    subTitle: "",
+    cost: "2000",
     duration: "Approx 2 night trip",
+    distance: "500"
   },
   {
     image: Destination3,
-    title: "Paris",
-    subTitle: "Paris, France's capital, is a major European city and a",
-    cost: "45,500",
+    title: "Kalsubai",
+    subTitle: "",
+    cost: "1200",
     duration: "Approx 2 night trip",
+    distance: "300"
   },
   {
     image: Destination4,
-    title: "New Zealand",
-    subTitle: "New Zealand is an island country in the",
-    cost: "24,100",
+    title: "dudhsagar waterfall ",
+    subTitle: "",
+    cost: "1000",
     duration: "Approx 1 night trip",
+    distance: "350"
   },
   {
     image: Destination5,
-    title: "Bora Bora",
-    subTitle: "Bora Bora is a small South Pacific island northwest of",
-    cost: "95,400",
+    title: "Devkund waterfall",
+    subTitle: "",
+    cost: "2500",
     duration: "Approx 2 night 2 day trip",
+    distance: "1200"
   },
+  {
+    image: Destination6,
+    title: "Harihar",
+    subTitle: "",
+    cost: "1400",
+    duration: "Approx 2 night 2 day trip",
+    distance: "456"
+  }
 ];
 
 const packages = [
@@ -98,7 +111,7 @@ function Recommended() {
                 <h4>{destination.cost}</h4>
               </div>
               <div className="distance">
-                <span>1000 Kms</span>
+                <span>{destination.distance + " KMS"}</span>
                 <span>{destination.duration}</span>
               </div>
             </div>

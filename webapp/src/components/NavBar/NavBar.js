@@ -1,87 +1,114 @@
 import React from "react";
-import "./NavBar.css"
+import "./NavBar.css";
 import { Link } from "react-router-dom";
+//images
+import NovaLogo from "./assets/logo200.png";
 
 function NavBar() {
   return (
-    <nav class="navbar">
-      <div id="nav-close" class="fas fa-times"></div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <a href="">Upcomming</a>
-          <div class="menu-dropdown">
-            <a>Harishchandra</a>
-            <a>Kalasubai</a>
-            <a>Ratangad</a>
-            <a>Harihar</a>
-            <a>korigad</a>
-          </div>
-        </li>
-        <li>
-          <a href="">Trekking</a>
-          <div class="menu-dropdown">
-            <a>Maharastra</a>
-            <a>Karnatak</a>
-            <a>Himachal</a>
-            <a>Uttarakhand</a>
-            <a>Nort-East</a>
-          </div>
-        </li>
-        <li>
-          <a href="">Camping</a>
-          <div class="menu-dropdown">
-            <a>Pune</a>
-            <a>Mumbai</a>
-            <a>Banglore</a>
-            <a>Hydrabad</a>
-            <a>Delhi</a>
-          </div>
-        </li>
-        <li>
-          <a href="">Backpacking</a>
-          <div class="menu-dropdown">
-            <a>
-              <pre>Long Tours</pre>
-            </a>
-            <a>
-              <pre>Short Tours</pre>
-            </a>
-          </div>
-        </li>
-        <li>
-          <a href="">Rafting</a>
-          <div class="menu-dropdown">
-            <a>Maharastra</a>
-            <a>Uttarakhand</a>
-            <a>Karnataka</a>
-            <a>Himachal</a>
-          </div>
-        </li>
-        <li>
-          <a href="">Paragliding</a>
-          <div class="menu-dropdown">
-            <a>Solang Vally</a>
-            <a>Jammu</a>
-          </div>
-        </li>
-        <li>
-          <a href="">
-            <pre>Road Trips</pre>
-          </a>
-          <div class="menu-dropdown">
-            <a>Ladakh</a>
-            <a>Goa</a>
-            <a>Kanyakumari</a>
-          </div>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <header className="header">
+        <div>
+          <img
+            src={NovaLogo}
+            alt="Logo"
+            style={{ height: "50px", width: "50px" }}
+          />
+        </div>
+        <nav className="navbar">
+          <div id="nav-close" className="fas fa-times"></div>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link >Upcomming</Link>
+              <div className="menu-dropdown">
+                <div>
+                  <Link>Harishchandra</Link>
+                </div>
+                <div>
+                  <Link>Kalasubai</Link>
+                </div>
+                <div>
+                  <Link>Ratangad</Link>
+                </div>
+                <div>
+                  <Link>Harihar</Link>
+                </div>
+                <div>
+                  <Link>korigad</Link>
+                </div>
+              </div>
+            </li>
+            <li>
+              <Link >Trekking</Link>
+              <div className="menu-dropdown">
+                <div>
+                  <Link>Maharastra</Link>
+                </div>
+                <div>
+                  <Link>Himachal</Link>
+                </div>
+                <div>
+                  <Link>Karnatak</Link>
+                </div>
+                <div>
+                  <Link>Uttarakhand</Link>
+                </div>
+                <div>
+                  <Link>North-East</Link>
+                </div>
+              </div>
+            </li>
+            <li>
+              <Link >Camping</Link>
+              <div className="menu-dropdown">
+                <div>
+                  <Link>Pune</Link>
+                </div>
+                <div>
+                  <Link>Mumbai</Link>
+                </div>
+                <div>
+                  <Link>Banglore</Link>
+                </div>
+                <div>
+                  <Link>Hyderabad</Link>
+                </div>
+                <div>
+                  <Link>Delhi</Link>
+                </div>
+              </div>
+            </li>
+            <li>
+              <Link >
+                <pre>Road Trips</pre>
+              </Link>
+              <div className="menu-dropdown">
+                <div>
+                  <Link>Ladakh</Link>
+                </div>
+                <div>
+                  <Link>Goa</Link>
+                </div>
+                <div>
+                  <Link>Kanyakumari</Link>
+                </div>
+              </div>
+            </li>
+            <li>
+              <Link to="/contact">contact</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <div className="icons">
+          <div id="menu-btn" className="fas fa-bars"></div>
+          <div id="search-btn" className="fas fa-search"></div>
+        </div>
+      </header>
+    </>
   );
 }
 
