@@ -1,32 +1,35 @@
-import React from 'react'
-import Footer from '../../components/Footer/Footer'
-import NavBar from '../../components/NavBar/NavBar'
-import "./Contact.css"
-import Recommended from '../../components/Recommended/Recommended'
+import React from "react";
+import Footer from "../../components/Footer/Footer";
+import NavBar from "../../components/NavBar/NavBar";
+import "./Contact.css";
+import Recommended from "../../components/Recommended/Recommended";
 
 function Contact() {
   return (
     <div>
-        <NavBar />
-        <h1>Contact page</h1>
-        <div>
-            <div>
-                <input name="firstname" type="text" placeholder='Firstname' />
-            </div>
-            <div>
-                <input name="lastname" type="text" placeholder='Lastname' />
-            </div>
-            <div>
-                <input name="phone" type="text" placeholder='Phone number' />
-            </div>
-            <div>
-                <input name="address" type="text" placeholder='Address' />
-            </div>
+      <NavBar />
+      
+      <div class="container">
+        <div className="contact-box">
+          <div className="left" />
+          <div className="right">
+            <h2>Contact Us</h2>
+            <input type="text" className="field" placeholder="Your Name" />
+            <input type="text" className="field" placeholder="Your Email" />
+            <input type="text" className="field" placeholder="Phone" />
+            <textarea
+              placeholder="Message"
+              className="field"
+              defaultValue={""}
+            />
+            <button className="btn">Send</button>
+          </div>
         </div>
-        
-        <Footer />
+      </div>
+
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
