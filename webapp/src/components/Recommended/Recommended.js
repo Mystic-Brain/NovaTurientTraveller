@@ -16,7 +16,7 @@ import "./Recommended.css"
 const data = [
   {
     image: Destination1,
-    title: "Harishchandra Trek",
+    title: "Harishchandra Fort Trek",
     subTitle:
       "Harishchandra, A famous ancient fort in the district of Ahmednagar is a perfect place for you to visit for a weekend getaway",
     cost: "2000",
@@ -24,7 +24,7 @@ const data = [
   },
   {
     image: Destination2,
-    title: "",
+    title: "Lohgad Fort Trek",
     subTitle: "",
     cost: "",
     duration: "",
@@ -38,21 +38,21 @@ const data = [
   },
   {
     image: Destination4,
-    title: "",
+    title: "Dhudsagar Waterfall",
     subTitle: "",
     cost: "",
     duration: "",
   },
   {
     image: Destination5,
-    title: "",
+    title: "Devkund Waterfall",
     subTitle: "",
     cost: "",
     duration: "",
   },
   {
     image: Destination6,
-    title: "",
+    title: "Hariharfort Trek ",
     subTitle: "",
     cost: "",
     duration: "",
