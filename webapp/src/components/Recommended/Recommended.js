@@ -105,7 +105,7 @@ function Recommended() {
                 <h4>{destination.cost}</h4>
               </div>
               <div className="distance">
-                <span>1000 Kms</span>
+                <span>250 Kms</span>
                 <span>{destination.duration}</span>
               </div>
             </div>
