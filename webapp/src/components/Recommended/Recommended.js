@@ -19,7 +19,7 @@ import "./Recommended.css"
 const data = [
   {
     image: Destination1,
-    title: "Harishchandra Trek",
+    title: "Harishchandra Fort Trek",
     subTitle:
       "Harishchandra, A famous ancient fort in the district of Ahmednagar is a perfect place for you to visit for a weekend getaway",
     cost: "2000",
@@ -90,7 +90,6 @@ const data = [
     duration: "Approx 2 night 2 day trip",
     distance: "456"
   }
-
 ];
 
 const packages = [
