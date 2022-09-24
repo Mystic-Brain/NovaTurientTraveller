@@ -17,12 +17,12 @@ import "./Campings.css"
 const data = [
   {
     image: Destination11,
-    title: "Harishchandra Trek",
+    title: "Matheran Camping",
     subTitle:
-      "Harishchandra, A famous ancient fort in the district of Ahmednagar is a perfect place for you to visit for a weekend getaway",
-    cost: "2000",
-    duration: "Approx 1 night trip",
-    distance: "1000",
+      "Matheran is one of the smallest hill station in Indian. Matheran is famous for Horse Riding, Herping, Bird Watching, Handicrafts.",
+    cost: "1799/- per person",
+    duration: "2 Days / 1 Night",
+    distance: "Mumbai: 85km & Pune:120km",
     info: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
@@ -30,11 +30,11 @@ const data = [
   },
   {
     image: Destination12,
-    title: "Lohgad",
-    subTitle: "",
-    cost: "2000",
-    duration: "Approx 2 night trip",
-    distance: "500",
+    title: "Igatpuri Water Sports & Camping",
+    subTitle: "Igatpuri is the city in the Nashik district of Maharashtra. This place is super beautiful because of its surrounding breathtaking green mountains.",
+    cost: "1400/- per person",
+    duration: " 2 Days / 1 Nigh",
+    distance: "Mumbai: 125km & Pune: 230km",
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
@@ -42,11 +42,11 @@ const data = [
   },
   {
     image: Destination13,
-    title: "Kalsubai",
-    subTitle: "",
-    cost: "1200",
-    duration: "Approx 2 night trip",
-    distance: "300",
+    title: "Pawna Lakeside Camping ",
+    subTitle: "Pawna lake, also known as Pavana lake, is located in Maval taluka of Pune district in Maharashtra",
+    cost: "1200/- per person",
+    duration: " 2 Days / 1 Night",
+    distance: "Mumbai: 120km & Pune: 65km",
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
@@ -54,11 +54,11 @@ const data = [
   },
   {
     image: Destination14,
-    title: "lagatpuri water sport and campaign ",
-    subTitle: "",
-    cost: "1000",
-    duration: "Approx 1 night trip",
-    distance: "350",
+    title: "Kolad Camping with Rafting & Adventure sports ",
+    subTitle: "In the backdrop of Sahyadri, there is a flourishing village, Kolad, in the Raigad district of Maharashtra.",
+    cost: "1300/- per person",
+    duration: "2 Days / 1 Night",
+    distance: "Mumbai 120km & Pune: 120km",
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
@@ -66,11 +66,11 @@ const data = [
   },
   {
     image: Destination15,
-    title: "Pawna LAke Campings",
-    subTitle: "",
-    cost: "2500",
-    duration: "Approx 2 night 2 day trip",
-    distance: "1200",
+    title: "Kasarsai Dam Camping",
+    subTitle: "The Kasarsai dam is a small dam built on a Kasarsai lake just near Pune.",
+    cost: "1200Rs per person",
+    duration: "1 Night 2 Days",
+    distance: "Mumbai: 130km & Pune: 25km",
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
@@ -78,11 +78,11 @@ const data = [
   },
   {
     image: Destination16,
-    title: "Harihar",
-    subTitle: "",
+    title: "Alibaug Beach Camping",
+    subTitle: "Soothe your soul and mind with the amazing views of the sunset over the sea when you go for a camping experience in Alibaug.",
     cost: "1400",
-    duration: "Approx 2 night 2 day trip",
-    distance: "456",
+    duration: "1 Night 2 Day",
+    distance: "Mumabi: 110km & Pune: 150km",
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
