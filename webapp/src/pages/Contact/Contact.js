@@ -9,7 +9,7 @@ function Contact() {
     <div>
       <NavBar />
       
-      <div class="container">
+      <div class="container" style={{marginTop: "60px"}}>
         <div className="contact-box">
           <div className="left" />
           <div className="right">

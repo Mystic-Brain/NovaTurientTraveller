@@ -1,0 +1,7 @@
+API_KEY=firebase app key
+AUTHDOMAIN=firebase ref domain
+PROJECTID=id
+STORAGEBUCKET=storgaebucket
+MESSAGINGSENDERID=message id
+APPID=1:aap
+MEASUREMENTID=measurement id 

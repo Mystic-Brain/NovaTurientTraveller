@@ -14,7 +14,7 @@
 }
 
 html {
-  font-size: 15px;
+  font-size: 16px;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
@@ -40,3 +40,5 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background: #10221b;
 }
+
+

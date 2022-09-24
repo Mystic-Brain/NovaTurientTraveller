@@ -52,9 +52,21 @@ img {
   width: 100%;
 }
 
+.title h2{
+  font-size: 23px;
+}
+
 .distance {
   display: flex;
   justify-content: space-between;
+}
+
+.destinations h3{
+  font-size: 16px;
+}
+
+.destinations p{
+  font-size: 12px;
 }
 
 .destinations .destination .info {
@@ -70,10 +82,22 @@ img {
   gap: 0.3rem;
 }
 
+.destinations .destination .info h4{
+  font-size: 12px;
+}
+
+.destinations .distance span{
+  font-size: 12px;
+}
+
+.destinations .distance span{
+  margin-top: 10px;
+}
+
 .destinations .destination .info .services img {
   border-radius: 1rem;
   background-color: #4d2ddb84;
-  width: 2rem;
+  width: 23px;
   /* padding: 1rem; */
   padding: 0.3rem 0.4rem;
 }

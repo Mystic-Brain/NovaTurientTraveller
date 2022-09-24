@@ -1,25 +1,22 @@
 import React, { useState } from "react";
 // images
-import Destination1 from "./assets/Destination1.png";
-import Destination2 from "./assets/Destination2.png";
-import Destination3 from "./assets/Destination3.png";
-import Destination4 from "./assets/Destination4.png";
-import Destination5 from "./assets/Destination5.png";
-import Destination6 from "./assets/Destination6.png";
-import Destination7 from "./assets/Destination7.png";
-import Destination8 from "./assets/Destination8.png";
-import Destination9 from "./assets/Destination9.png";
+import Destination11 from "./assets/Destination11.png";
+import Destination12 from "./assets/Destination12.png";
+import Destination13 from "./assets/Destination13.png";
+import Destination14 from "./assets/Destination14.png";
+import Destination15 from "./assets/Destination15.png";
+import Destination16 from "./assets/Destination16.png";
 import info1 from "./assets/info1.png";
 import info2 from "./assets/info2.png";
 import info3 from "./assets/info3.png";
 // styles
-import "./Recommended.css"
+import "./Campings.css"
 
 
 const data = [
   {
-    image: Destination1,
-    title: "Harishchandra Fort Trek",
+    image: Destination11,
+    title: "Harishchandra Trek",
     subTitle:
       "Harishchandra, A famous ancient fort in the district of Ahmednagar is a perfect place for you to visit for a weekend getaway",
     cost: "2000",
@@ -27,7 +24,7 @@ const data = [
     distance: "1000"
   },
   {
-    image: Destination2,
+    image: Destination12,
     title: "Lohgad",
     subTitle: "",
     cost: "2000",
@@ -35,7 +32,7 @@ const data = [
     distance: "500"
   },
   {
-    image: Destination3,
+    image: Destination13,
     title: "Kalsubai",
     subTitle: "",
     cost: "1200",
@@ -43,53 +40,30 @@ const data = [
     distance: "300"
   },
   {
-    image: Destination4,
-    title: "dudhsagar waterfall ",
+    image: Destination14,
+    title: "lagatpuri water sport and campaign ",
     subTitle: "",
     cost: "1000",
     duration: "Approx 1 night trip",
     distance: "350"
   },
   {
-    image: Destination5,
-    title: "Devkund waterfall",
+    image: Destination15,
+    title: "Pawna LAke Campings",
     subTitle: "",
     cost: "2500",
     duration: "Approx 2 night 2 day trip",
     distance: "1200"
   },
   {
-    image: Destination6,
+    image: Destination16,
     title: "Harihar",
     subTitle: "",
     cost: "1400",
     duration: "Approx 2 night 2 day trip",
     distance: "456"
-  },
-  {
-    image: Destination7,
-    title: "Visapur Trek",
-    subTitle: "",
-    cost: "1400",
-    duration: "Approx 2 night 2 day trip",
-    distance: "456"
-  },
-  {
-    image: Destination8,
-    title: "Andarban Trek",
-    subTitle: "",
-    cost: "1400",
-    duration: "Approx 2 night 2 day trip",
-    distance: "456"
-  },
-  {
-    image: Destination9,
-    title: "Adrai Trek",
-    subTitle: "",
-    cost: "1400",
-    duration: "Approx 2 night 2 day trip",
-    distance: "456"
   }
+
 ];
 
 const packages = [
@@ -99,14 +73,14 @@ const packages = [
   "Long Term Slow Travel",
 ];
 
-function Recommended() {
+function Campings() {
 
   const [active, setActive] = useState(1);
 
   return (
     <section className="section">
       <div className="title">
-        <h2>Recommended Destinations</h2>
+        <h2>Campings Destinations</h2>
       </div>
       {/* <div className="packages">
         <ul>
@@ -149,4 +123,4 @@ function Recommended() {
   );
 }
 
-export default Recommended;
+export default Campings;
