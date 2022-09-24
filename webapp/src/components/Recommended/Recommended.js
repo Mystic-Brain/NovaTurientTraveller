@@ -19,76 +19,76 @@ import "./Recommended.css"
 const data = [
   {
     image: Destination1,
-    title: "Harishchandra Fort Trek",
+    title: "Harishchandragad Trek",
     subTitle:
       "Harishchandra, A famous ancient fort in the district of Ahmednagar is a perfect place for you to visit for a weekend getaway",
-    cost: "2000",
-    duration: "Approx 1 night trip",
-    distance: "1000"
+    cost: "Pune:1450/- & Mumbai:1300/-" ,
+    duration: "1 night 1 day",
+    distance: "Pune:166 km & Mumbai:243 km"
   },
   {
     image: Destination2,
-    title: "Lohgad",
-    subTitle: "",
-    cost: "2000",
-    duration: "Approx 2 night trip",
-    distance: "500"
+    title: "Lohgad Trek",
+    subTitle: "Lohagad,is one of the many hill forts of Maharashtra state in India. Situated close to the hill station Lonavala and 52 km northwest of Pune, Lohagad rises to an elevation of 1,033 m above sea level.",
+    cost: "Pune:1000/- & Mumbai:1400/-",
+    duration: "1 day",
+    distance: "Pune:65 km & Mumbai:94 km"
   },
   {
     image: Destination3,
-    title: "Kalsubai",
-    subTitle: "",
-    cost: "1200",
-    duration: "Approx 2 night trip",
-    distance: "300"
+    title: "Kalsubai Trek",
+    subTitle: "Kalsubai,Located in the western ghats of the Sahyadri region and also known as the Everest of Maharashtra, is this beautiful place for you to visit.",
+    cost: "Pune:1450/- & Mumbai:1400/-",
+    duration: "1 Night 1 Day",
+    distance: "Pune:169 km & Mumbai:153 km"
   },
   {
     image: Destination4,
-    title: "dudhsagar waterfall ",
-    subTitle: "",
-    cost: "1000",
-    duration: "Approx 1 night trip",
-    distance: "350"
+    title: "Dudhsagar Waterfall Trek",
+    subTitle: "You can't really miss a trip to one of the largest and most beautiful waterfalls in India.Dudhsagar waterfalls, as the name suggests, is the sea of milk.",
+    cost: "Pune:2200/- & Mumbai:2700/-",
+    duration: "2 Night 3 Day",
+    distance: "Pune:360 km & Mumbai:640 km"
   },
   {
     image: Destination5,
-    title: "Devkund waterfall",
-    subTitle: "",
-    cost: "2500",
-    duration: "Approx 2 night 2 day trip",
-    distance: "1200"
+    title: "Devkund Waterfall Trek",
+    subTitle: "The Devkund Waterfall trek,It is nature’s hidden gem, found in the middle of a dense forest, also named Devkund.",
+    cost: "Pune:1300/- & Mumbai:1500/-",
+    duration: "1 Night 1 Day",
+    distance: "Pune:100 km & Mumbai:130 km"
   },
   {
     image: Destination6,
-    title: "Harihar",
-    subTitle: "",
-    cost: "1400",
-    duration: "Approx 2 night 2 day trip",
-    distance: "456"
+    title: "Harihar Fort Trek",
+    subTitle: "The Harihar fort, also known as Harshagad, is located in the Nashik district of Maharashtra.",
+    cost: "Pune:1400/- & Mumbai:1100/-",
+    duration: "1 Night 1 Day",
+    distance: "Pune:247 km & Mumbai:190 km"
   },
   {
     image: Destination7,
-    title: "Visapur Trek",
-    subTitle: "",
-    cost: "1400",
-    duration: "Approx 2 night 2 day trip",
-    distance: "456"
+    title: "Visapur Fort Trek",
+    subTitle: "Visapur Fort Trek is one of the most thrilling day treks that passes from different villages, trails, and a stunning waterfall.",
+    cost: "Pune:700/- & Mumbai:1400/-",
+    duration: "1 Day",
+    distance: "Pune:60 km & Mumbai:103 km"
   },
   {
     image: Destination8,
-    title: "Andarban Trek",
-    subTitle: "",
-    cost: "1400",
-    duration: "Approx 2 night 2 day trip",
-    distance: "456"
+    title: "Andharban Trek",
+    subTitle: "Andharban, as the name suggests simply means a ‘Dark Dense Forest’. During monsoons, this trek is one of the most refreshing treks of the Sahyadri.",
+    cost: "Pune:1400/- & Mumbai:1600/-",
+    duration: "1 Night 1 Day",
+    distance: "Pune:67 km & Mumbai:133 km"
   },
   {
     image: Destination9,
-    title: "Adrai Trek",
-    subTitle: "",
-    cost: "1400",
-    duration: "Approx 2 night 2 day trip",
-    distance: "456"
+    title: "Aadrai Trek",
+    subTitle: "Deep in the belly of Sahyadri, lies this beautiful and unexplored Aadrai Jungle where the forest floor seldom feels the warm embrace of the sun.",
+    cost: "Pune:1400/- & Mumbai:1400/-",
+    duration: "1 Night 1 Day",
+    distance: "Pune:129 km & Mumbai:138 km"
   }
 ];
 
