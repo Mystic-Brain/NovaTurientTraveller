@@ -103,9 +103,13 @@ function NavBar() {
           </ul>
         </nav>
 
-        <div className="icons">
-          <div id="menu-btn" className="fas fa-bars"></div>
-          <div id="search-btn" className="fas fa-search"></div>
+        <div className="auth-buttons">
+          <div>
+            <Link>Login</Link>
+          </div>
+          <div style={{ marginLeft: "10px" }}>
+            <Link>Sign Up</Link>
+          </div>
         </div>
       </header>
     </>

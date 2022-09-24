@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 // images
 import Destination11 from "./assets/Destination11.png";
 import Destination12 from "./assets/Destination12.png";
@@ -21,7 +22,11 @@ const data = [
       "Harishchandra, A famous ancient fort in the district of Ahmednagar is a perfect place for you to visit for a weekend getaway",
     cost: "2000",
     duration: "Approx 1 night trip",
-    distance: "1000"
+    distance: "1000",
+    info: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
   },
   {
     image: Destination12,
@@ -29,7 +34,11 @@ const data = [
     subTitle: "",
     cost: "2000",
     duration: "Approx 2 night trip",
-    distance: "500"
+    distance: "500",
+    info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
   },
   {
     image: Destination13,
@@ -37,7 +46,11 @@ const data = [
     subTitle: "",
     cost: "1200",
     duration: "Approx 2 night trip",
-    distance: "300"
+    distance: "300",
+    info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
   },
   {
     image: Destination14,
@@ -45,7 +58,11 @@ const data = [
     subTitle: "",
     cost: "1000",
     duration: "Approx 1 night trip",
-    distance: "350"
+    distance: "350",
+    info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
   },
   {
     image: Destination15,
@@ -53,7 +70,11 @@ const data = [
     subTitle: "",
     cost: "2500",
     duration: "Approx 2 night 2 day trip",
-    distance: "1200"
+    distance: "1200",
+    info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
   },
   {
     image: Destination16,
@@ -61,7 +82,11 @@ const data = [
     subTitle: "",
     cost: "1400",
     duration: "Approx 2 night 2 day trip",
-    distance: "456"
+    distance: "456",
+    info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
   }
 
 ];
@@ -75,7 +100,10 @@ const packages = [
 
 function Campings() {
 
-  const [active, setActive] = useState(1);
+  const navigate = useNavigate()
+  const navigateToDetailPage = (data) => {
+    navigate("campdetail", { state: data })
+  }
 
   return (
     <section className="section">
@@ -99,7 +127,7 @@ function Campings() {
       <div className="destinations">
         {data.map((destination) => {
           return (
-            <div className="destination">
+            <div className="destination" onClick={() => navigateToDetailPage(destination)}>
               <img src={destination.image} alt="" />
               <h3>{destination.title}</h3>
               <p>{destination.subTitle}</p>

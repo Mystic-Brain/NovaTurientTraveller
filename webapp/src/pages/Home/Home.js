@@ -10,8 +10,9 @@ function Home() {
     <>
       <NavBar />
       <Landing />
-      <Recommended />
       <Campings />
+      <Recommended />
+      
       <Footer />
     </>
   );
