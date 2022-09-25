@@ -105,7 +105,7 @@ function NavBar() {
 
         <div className="auth-buttons">
           <div>
-            <Link>Login</Link>
+            <Link to="/Login">Login</Link>
           </div>
           <div style={{ marginLeft: "10px" }}>
             <Link>Sign Up</Link>
