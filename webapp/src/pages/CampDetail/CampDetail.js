@@ -47,6 +47,10 @@ function CampDetail(props) {
             })}
           </ul>
         </p>
+        <div className="booking-button">
+        <h1 >Booking</h1>
+        <button>button</button>
+        </div>      
       </div>
     </div>
   );

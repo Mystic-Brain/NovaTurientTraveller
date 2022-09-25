@@ -97,3 +97,17 @@
 .camp-detail-page .content .trek-list{
     margin: 10px 0px;
 }
+
+.booking-button {
+    border: none;
+    outline: none;
+    background-color: #1b9a6f;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
