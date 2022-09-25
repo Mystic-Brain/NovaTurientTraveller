@@ -26,7 +26,13 @@ const data = [
     info: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
-    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
+    trek_details: { ["Cost"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" },
+    package_cost:{["Package A"]:"",["Package B"]:"",["Package C"]:"",["Package D"]:""},
+    Amenities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Activities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Carry:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Do:""
+    
   },
   {
     image: Destination12,
@@ -38,7 +44,12 @@ const data = [
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
-    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" },
+    package_cost:{["Package A"]:"",["Package B"]:"",["Package C"]:"",["Package D"]:""},
+    Amenities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Activities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Carry:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Do:""
   },
   {
     image: Destination13,
@@ -47,10 +58,15 @@ const data = [
     cost: "1200/- per person",
     duration: " 2 Days / 1 Night",
     distance: "Mumbai: 120km & Pune: 65km",
-    info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+    info: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
-    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" },
+    package_cost:{["Package A"]:"",["Package B"]:"",["Package C"]:"",["Package D"]:""},
+    Amenities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Activities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Carry:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Do:""
   },
   {
     image: Destination14,
@@ -62,7 +78,12 @@ const data = [
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
-    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" },
+    package_cost:{["Package A"]:"",["Package B"]:"",["Package C"]:"",["Package D"]:""},
+    Amenities:{["1"]:"Security.",["2"]:"",["3"]:"",["4"]:""},
+    Activities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Carry:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Do:""
   },
   {
     image: Destination15,
@@ -74,7 +95,12 @@ const data = [
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
-    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" },
+    package_cost:{["Package A"]:"",["Package B"]:"",["Package C"]:"",["Package D"]:""},
+    Amenities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Activities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Carry:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Do:""
   },
   {
     image: Destination16,
@@ -86,7 +112,12 @@ const data = [
     info: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
-    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" }
+    trek_details: { ["Height"]: "100", ["Trek Route"]: "", ["Trek Difficulty"]: "", ["Trek Endurance"]: "", ["Trek Length"]: "", ["Trek Location"]: "", ["Distance from Aurangabad"]: "",  ["Distance from Pune"]: "" },
+    package_cost:{["Package A"]:"",["Package B"]:"",["Package C"]:"",["Package D"]:""},
+    Amenities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Activities:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Carry:{["1"]:"",["2"]:"",["3"]:"",["4"]:""},
+    Things_To_Do:"",
   }
 
 ];
