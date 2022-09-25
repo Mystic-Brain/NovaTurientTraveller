@@ -1,0 +1,37 @@
+.formS{
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+   height: 600px; 
+}
+
+.form-bodyS{
+ /* text-align: left;*/
+  padding: 20px 10px;
+}
+
+.form-bodyS > *{
+  padding: 5px;
+}
+
+.form__labelS{
+  text-align: left;
+  width: 30%;
+  margin-left: 20px;
+}
+
+.form_inputS{
+  width: 60%;
+}
+
+.footerS{
+  text-align: center;
+}
+
+.MainS{
+  margin-left: 30% ;
+  margin-right: 30%;
+  background-color:aqua      ;
+}
