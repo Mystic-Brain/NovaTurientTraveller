@@ -110,11 +110,11 @@ function CampDetail(props) {
         <h1>Things To Do:</h1>
         <p>
           <ul>
-            {Object.keys(destination.Things_To_Carry).map((Things) => {
+            {Object.keys(destination.Things_To_Do).map((Things) => {
               return (
                 <div className="trek-list">
                   <span className="trek-detail-key">{Things}</span>
-                  <span>  {destination.Things_To_Carry[Things]}</span>
+                  <span>  {destination.Things_To_Do[Things]}</span>
                 </div>
               );
             })}
