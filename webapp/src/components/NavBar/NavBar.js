@@ -22,22 +22,22 @@ function NavBar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link >Upcomming</Link>
+              <Link >Campaign</Link>
               <div className="menu-dropdown">
                 <div>
-                  <Link>Harishchandra</Link>
+                  <Link>Matheran</Link>
                 </div>
                 <div>
-                  <Link>Kalasubai</Link>
+                  <Link>Igatpuri</Link>
                 </div>
                 <div>
-                  <Link>Ratangad</Link>
+                  <Link>Pawna</Link>
                 </div>
                 <div>
-                  <Link>Harihar</Link>
+                  <Link>Kolad</Link>
                 </div>
                 <div>
-                  <Link>korigad</Link>
+                  <Link>Kasarsai</Link>
                 </div>
               </div>
             </li>
@@ -62,22 +62,22 @@ function NavBar() {
               </div>
             </li>
             <li>
-              <Link >Camping</Link>
+              <Link >Upcoming</Link>
               <div className="menu-dropdown">
                 <div>
-                  <Link>Pune</Link>
+                  <Link>Harishchandra</Link>
                 </div>
                 <div>
-                  <Link>Mumbai</Link>
+                  <Link>Kalasubai</Link>
                 </div>
                 <div>
-                  <Link>Banglore</Link>
+                  <Link>Ratangad</Link>
                 </div>
                 <div>
-                  <Link>Hyderabad</Link>
+                  <Link>Harihar</Link>
                 </div>
                 <div>
-                  <Link>Delhi</Link>
+                  <Link>Korigad</Link>
                 </div>
               </div>
             </li>
