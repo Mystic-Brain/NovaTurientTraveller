@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 //images
 import NovaLogo from "./assets/logo200.png";
 
+
 function NavBar() {
   return (
     <>
@@ -100,16 +101,30 @@ function NavBar() {
             <li>
               <Link to="/contact">contact</Link>
             </li>
+
+            <li style={{ marginLeft: "30px" }}>
+              <Link to="/feedback">Feedback</Link>
+            </li>
+
+            <li style={{ marginLeft: "30px" }}>
+              <Link to="/booking">Booking</Link>
+            </li>
+
+            {/* <li style={{ marginLeft: "15px" }}>
+              <Link to="/booking">Booking</Link>
+            </li> */}
+            
           </ul>
         </nav>
 
         <div className="auth-buttons">
           <div>
-            <Link to="/Login">Login</Link>
+            <Link to="/login">Login</Link>
           </div>
           <div style={{ marginLeft: "10px" }}>
-            <Link>Sign Up</Link>
+            <Link to="/signup" >Sign Up</Link>
           </div>
+          
         </div>
       </header>
     </>

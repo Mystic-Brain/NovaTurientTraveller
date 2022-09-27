@@ -12,15 +12,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin("*")
-@RestController
+
+@RestController                              //used bcoz here view section not declaired. it is in react.js
 public class FeedbackController {
 
     @Autowired
     private FeedbackService service;
 
     @RequestMapping(method = RequestMethod.POST, value = "/submitfeedback")
-   public String addUsersFeedbackData(@RequestBody FeedbackBean bean){
+    @CrossOrigin(origins = "*")
+    public String addUsersFeedbackData(@RequestBody FeedbackBean bean){
 
     System.out.println("Add user method is working");
     return service.addFeedbackData(bean);
@@ -31,6 +32,7 @@ public class FeedbackController {
    //To get feedback data
 
    @GetMapping("/viewfeedback") 
+   @CrossOrigin(origins = "*")
    public List<FeedbackBean> getFeedbackData(){
      return service.getAllFeedback();
    }

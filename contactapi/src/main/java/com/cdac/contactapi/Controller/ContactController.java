@@ -2,6 +2,7 @@ package com.cdac.contactapi.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,18 +25,23 @@ public class ContactController {
 
     @Autowired
     private ContactService service;
-    private ContactRepository repository;
+    
 
     @RequestMapping(method=RequestMethod.POST, value = "/contactus")
+    @CrossOrigin(origins = "*")
     public String addUserContactus(@RequestBody ContactBean bean) {
         System.out.println("we are in controller!");
 
+    
+
         return service.addContactData(bean);
         //System.out.println("after controller!");
+
     }
 
     //To get contact us data
      @GetMapping("/viewcontact")
+     @CrossOrigin(origins = "*")
      public java.util.List<ContactBean> viewContact(ContactBean bean){
      return service.getAllContact();
      }

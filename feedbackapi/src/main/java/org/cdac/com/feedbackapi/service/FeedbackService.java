@@ -27,6 +27,6 @@ public class FeedbackService {
     }
 
     public java.util.List<FeedbackBean> getAllFeedback(){
-        return repository.findAll();
+        return repository.findAll();           // select * from feedback
     }
 }

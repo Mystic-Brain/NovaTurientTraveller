@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 //import React from "react";
 import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
+//import "./Contact.css";
 import "./Contact.css";
-import Recommended from "../../components/Recommended/Recommended";
+//import Recommended from "../../components/Recommended/Recommended";
 import ContactjsxService from '../../Services/ContactjsxService';
 //import axios from 'axios';
 
@@ -19,13 +20,15 @@ class Contactjsx extends Component {
             message: ''
         }
         
-        this.changeNamehandler = this.changeNamehandler.bind(this);
-        this.changeEmailhandler = this.changeEmailhandler.bind(this);
-        this.changePhonehandler = this.changePhonehandler.bind(this);
+        this.changeNameHandler = this.changeNameHandler.bind(this);
+        this.changeEmailHandler = this.changeEmailHandler.bind(this);
+        this.changePhoneHandler = this.changePhoneHandler.bind(this);
         this.changeMessageHandler = this.changeMessageHandler.bind(this);
 
         this.saveContact = this.saveContact.bind(this);
     }
+
+    
 
     saveContact = (e) => {
         e.preventDefault();
@@ -34,19 +37,28 @@ class Contactjsx extends Component {
             console.log('Contact =>' + JSON.stringify(contact));
 
             ContactjsxService.createContact(contact).then(res =>{
-                this.props.history.push("/campdetail");
+                //this.props.history.push("/campdetail");
+                alert("Data save successfully!");
             })
-    } 
+    }
+    
+    getContact = () => {
+        
+        ContactjsxService.getContact().then(res =>{
+                //this.props.history.push("/campdetail");
+                console.log("Data get", res);
+            })
+    }
 
-    changeNamehandler = (event) => {
+    changeNameHandler = (event) => {
         this.setState({name: event.target.value});
     }
 
-    changeEmailhandler = (event) => {
+    changeEmailHandler = (event) => {
         this.setState({email: event.target.value});
     }
 
-    changePhonehandler = (event) => {
+    changePhoneHandler = (event) => {
         this.setState({phone: event.target.value});
     }
 
@@ -54,7 +66,13 @@ class Contactjsx extends Component {
         this.setState({message: event.target.value});
     }
 
+    componentDidMount(){
+        this.getContact();
+
+    }
+
     render() {
+        console.log("Contact data get", this.props);
         return (
             <div>
             <NavBar />
@@ -67,17 +85,17 @@ class Contactjsx extends Component {
       
                   <input type="text" className="field" placeholder="Your Name"
                       value={this.state.name} 
-                      onChange={this.changeNamehandler} />
+                      onChange={this.changeNameHandler} />
       
                   <input type="text" className="field" placeholder="Your Email"
                       value={this.state.email} 
-                      onChange={this.changeEmailhandler} />
+                      onChange={this.changeEmailHandler} />
       
-                  <input type="text" className="field" placeholder="Phone" 
+                  <input type="text" className="field" placeholder="Contact Number" 
                       value={this.state.phone} 
-                      onChange={this.changePhonehandler} />
+                      onChange={this.changePhoneHandler} />
                   <textarea
-                    placeholder="Message"
+                    placeholder="Please leave message"
                     className="field"
                     //defaultValue={""}
                     value={this.state.message} 
