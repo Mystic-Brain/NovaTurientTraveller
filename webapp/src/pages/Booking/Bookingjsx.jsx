@@ -43,7 +43,9 @@ export default class Bookingjsx extends Component {
     saveBooking = (e) => {
         e.preventDefault();
         let booking = {name: this.state.name, email: this.state.email, 
-            phone: this.state.phone, comment: this.state.comment};
+            phone: this.state.phone, dob: this.state.dob, 
+            gender: this.state.gender, address: this.state.address, 
+            pickup: this.state.pickup, payment: this.state.payment};
             console.log('booking =>' + JSON.stringify(booking));
 
             BookingService.createBooking(booking).then(res =>{

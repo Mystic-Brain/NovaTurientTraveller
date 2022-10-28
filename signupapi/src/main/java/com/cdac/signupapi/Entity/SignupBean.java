@@ -21,8 +21,6 @@ public class SignupBean {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String email;
     
     private String phone;

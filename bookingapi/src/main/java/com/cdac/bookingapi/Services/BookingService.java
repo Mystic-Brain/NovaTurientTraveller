@@ -13,7 +13,7 @@ public class BookingService {
     private BookingRepository repository;
         
         public String addBookingData(BookingBean bean){
-            try{
+             try{
 
                 repository.save(bean);
 
@@ -22,7 +22,7 @@ public class BookingService {
                 return "Error occuring while inserting booking data!";
     
             }
-            return "Booking data added.";
+             return "Booking data added.";
         }
 
     public java.util.List<BookingBean> getAllBookingData(){

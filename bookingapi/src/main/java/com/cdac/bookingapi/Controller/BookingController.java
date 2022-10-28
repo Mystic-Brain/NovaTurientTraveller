@@ -18,13 +18,15 @@ public class BookingController {
     @Autowired
     private BookingService service;
 
-    //@RequestMapping(value="/booking", method=RequestMethod.GET)
+    //@RequestMapping(value="/booking", method=RequestMethod.POST)
     @PostMapping("/booking")
     @CrossOrigin(origins = "*")
     public String postBookingData(@RequestBody BookingBean bean) {
         
         System.out.println("We are in post controller");
+        System.out.println(bean);
         return service.addBookingData(bean);
+
     }
 
     @GetMapping("/viewbooking")
