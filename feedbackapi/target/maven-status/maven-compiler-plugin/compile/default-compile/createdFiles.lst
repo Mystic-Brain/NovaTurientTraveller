@@ -1,0 +1,5 @@
+org\cdac\com\feedbackapi\controller\FeedbackController.class
+org\cdac\com\feedbackapi\entity\FeedbackBean.class
+org\cdac\com\feedbackapi\repository\FeedbackRepository.class
+org\cdac\com\feedbackapi\service\FeedbackService.class
+org\cdac\com\feedbackapi\FeedbackapiApplication.class
