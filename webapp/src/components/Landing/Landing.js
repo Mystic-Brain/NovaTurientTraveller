@@ -18,7 +18,7 @@ function Landing() {
                 🏂𝐓𝐫𝐚𝐯𝐞𝐥🌍𝐰𝐢𝐭𝐡 𝐮𝐬 𝐬𝐡𝐚𝐫𝐞 𝐲𝐨𝐮𝐫 𝐒𝐭𝐨𝐫𝐢𝐞𝐬🏄 &𝐦𝐚𝐤𝐞 𝐌𝐞𝐦𝐨𝐫𝐢𝐞𝐬
                 </p>
                 <Link class="action-btn">
-                  get started
+                  About Us
                 </Link>
               </div>
             </div>
